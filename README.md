@@ -16,32 +16,34 @@ Simple Admin Panel for Inventory (React + TypeScript + Tailwind frontend, Node.j
 - Backend: Node.js + Express + lowdb (JSON file persistence)+
 
 
-Setup Instructions
+## Setup and Instructions
 
-1️⃣ Clone the Repository
-git clone <https://github.com/swetha-29042004/inventory-admin.git>
-cd inventory-admin
+ ## 1.Clone the repository:
 
-2️⃣ Backend Setup
+<pre> git clone <https://github.com/swetha-29042004/inventory-admin.git>
+
+cd inventory-admin </pre>
+
+ ## 1.Backend Setup:
 
 Navigate to backend folder:
 
-cd backend
+<pre> cd backend </pre>
 
 Install dependencies:
 
-npm install
+<pre> npm install </pre>
 
 Start the backend server:
 
-npx nodemon server.js
+<pre> npx nodemon server.js  </pre>
 
 
 Backend runs at:
 
-http://localhost:5000
+<pre> http://localhost:5000  </pre>
 
-Implemented endpoints:
+ Implemented endpoints:
 
 POST /inventory → Add new item
 
@@ -51,28 +53,28 @@ GET /inventory/:id → Get item by ID
 
 PUT /inventory/:id → Update item
 
-DELETE /inventory/:id → Delete item
+DELETE /inventory/:id → Delete item  
 
-3️⃣ Frontend Setup
+## 3.Frontend Setup:
 
 Open a new terminal, go to frontend:
 
-cd frontend
+<pre> cd frontend  </pre>
 
 
 Install dependencies:
 
-npm install
+<pre> npm install  </pre>
 
 
 Start the frontend app:
 
-npm run dev
+<pre> npm run dev  </pre>
 
 
 Frontend runs at:
 
-http://localhost:5173
+<pre> http://localhost:5173 </pre>
 
 
 
