@@ -41,7 +41,37 @@ Start the backend server:
 
 Backend runs at:
 
-<pre> http://localhost:5000 </pre>
+<pre> The backend server runs locally at: [http://localhost:5000](http://localhost:5000) </pre>
+
+> Use the `/inventory` endpoint to view all inventory items.
+ 
+> Example response:
+>
+> ```json
+ 
+> [
+ 
+>   {
+ 
+>     "id": "Q1YvqboMLCTedSaul6ebe",
+ 
+>     "createdAt": "2025-10-29T15:53:59.306Z",
+ 
+>     "name": "earphones",
+ 
+>     "category": "electronics",
+ 
+>     "quantity": 10,
+ 
+>     "price": 55,
+ 
+>     "status": "active"
+ 
+>   }
+ 
+> ]
+ 
+> ``` 
 
  Implemented endpoints:
 
