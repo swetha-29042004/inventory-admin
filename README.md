@@ -41,7 +41,7 @@ Start the backend server:
 
 Backend runs at:
 
-<pre> http://localhost:5000  </pre>
+<pre> http://localhost:5000 </pre>
 
  Implemented endpoints:
 
